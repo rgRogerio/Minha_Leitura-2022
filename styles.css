@@ -151,4 +151,51 @@ main section:nth-child(3) {
         opacity: 1;
         transform: translateY(0)
     }
+    
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 8px;
+    width: 100%;
+}
+
+.box input {
+    border: 0px;
+    border-radius: 8px;
+    outline: none;
+    padding: 8px 8px;
+    width: 100%;
+}
+
+form .button-send {
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border: 0px;
+    padding: 10px;
+    background-color: #9572FC;
+    color: white;
+    font-weight:600;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+form .button-send:hover{
+    background-color: #6837FB;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.box-input{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
