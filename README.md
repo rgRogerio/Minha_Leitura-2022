@@ -1,5 +1,5 @@
 #dicas de leitura
-![preview] (./.github/preview.png)
+![preview](./.github/preview.png)
 
 Projeto para compartilhar dicas de leitura
 
