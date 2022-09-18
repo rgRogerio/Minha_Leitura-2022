@@ -11,7 +11,8 @@ Projeto para compartilhar dicas de leitura
  - JavaScript
 
  ### Contato
- rogerio.oliveira@uni9.edu.br
- rogerrogersb@gmail.com
+ - rogerio.oliveira@uni9.edu.br
+
+ - rogerrogersb@gmail.com
 
 [clique aqui para acessar](https://rgrogerio.github.io/dicas-leitura/)
