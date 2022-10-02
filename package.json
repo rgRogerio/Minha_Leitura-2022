@@ -1,0 +1,20 @@
+{
+  "name": "dicas-leitura",
+  "version": "1.0.0",
+  "description": "![preview](./.github/preview.png)",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgRogerio/Minha_Leitura-2022.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rgRogerio/Minha_Leitura-2022/issues"
+  },
+  "homepage": "https://github.com/rgRogerio/Minha_Leitura-2022#readme"
+}
