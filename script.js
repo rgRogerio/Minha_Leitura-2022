@@ -8,21 +8,21 @@
   }
 
   function getLivros() {
-    fetch("http://localhost:3000/livros")
+    fetch("http://localhost:3333/livros")
       .then((response) => response.json())
       .then((data) => {
-        console.log(data)
+        console.log(data.livros)
         const ul = document.getElementsByClassName("games-list")
 
-        ul[0].innerHTML = data.map((item, index) => {
+        ul[0].innerHTML = data.livros.map((item, index) => {
           return (
             `
             <li>
               <a 
                 target="_blank"
-                href="${data[index].url}">
-                <img src="${data[index].urlImage}"
-                alt="${data[index].name}"/>
+                href="${data.livros[index].url}">
+                <img src="${data.livros[index].urlImage}"
+                alt="${data.livros[index].name}"/>
               </a>
             </li> 
             `)
