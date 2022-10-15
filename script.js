@@ -11,22 +11,22 @@
     fetch("http://localhost:3000/livros")
       .then((response) => response.json())
       .then((data) => {
+        console.log(data)
+        const ul = document.getElementsByClassName("games-list")
 
-      const ul = document.getElementsByClassName("games-list")
-
-        ul[0].innerHTML = data.map((item,index) => {
-            return(`
+        ul[0].innerHTML = data.map((item, index) => {
+          return (
+            `
             <li>
               <a 
                 target="_blank"
                 href="${data[index].url}">
                 <img src="${data[index].urlImage}"
-                alt="${data[index].name}">
+                alt="${data[index].name}"/>
               </a>
-            </li>           
-            
-            `)   
-        })
+            </li> 
+            `)
+        }).join('')
 
       })
 
